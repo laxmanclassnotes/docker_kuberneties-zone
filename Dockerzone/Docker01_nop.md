@@ -53,7 +53,3 @@ CMD [ "dotnet", "Nop.Web.dll", "--urls", "http://0.0.0.0:5000" ]
 ![Preview](./Images/docker8.png)     
 * then check the port number on sever.
 ![Preview](./Images/docker9.png)
-
-
-
-
