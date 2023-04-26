@@ -6,6 +6,6 @@ metadata:
 spec:
   containers:
     - name: nopcommerse
-      image: prakashreddy2525/nopcommerce
+      image: lakshminarayana1849/nopcommerse
       ports:
         - containerPort: 5000  
