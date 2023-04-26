@@ -6,7 +6,7 @@
 * vi Dockerfile
 ```Dockerfile
 FROM ubuntu:22.04
-LABEL author="Laxman Narayana" organization="QualityThought" project="learning"
+LABEL author="LAXMAN" organization="Quality Thought" project="learning"
 RUN apt update && apt install openjdk-11-jdk maven curl -y
 RUN curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | tee \
     /usr/share/keyrings/jenkins-keyring.asc > /dev/null
@@ -18,3 +18,14 @@ EXPOSE 8080
 CMD ["/usr/bin/jenkins"]
 ```
 `docker image build -t jenkins .`
+
+![Preview](./Images/docker21.png)
+
+`docker container run -d --name jenkins1 -P jenkins`
+
+`http://http://15.207.86.49:32768/login?from=%2F`
+
+![Preview](./Images/docker22.png)
+
+
+
